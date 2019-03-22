@@ -14,6 +14,9 @@ BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python3dist(setuptools)
 
+# Manually added dependencies so it builds successfully
+BuildRequires:  python3dist(pytest)
+
 %description
 Inflection |build status|_.. |build statu .. _build status: is a string
 transformation library. It singularizes and pluralizes English words, and
